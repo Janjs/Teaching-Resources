@@ -1,0 +1,17 @@
+me despierto
+Si tengo hambre
+    meriendo
+
+Salgo de casa
+Si hay nubes
+    Me llevo un paraguas
+si no
+    Me llevo gafas de sol
+    
+Estoy en un restaurante
+Si quiero carne
+    Me pido un bistec
+Si quiero pasta
+    Me pido espagetis
+Si no
+    Me pido una ensalada
