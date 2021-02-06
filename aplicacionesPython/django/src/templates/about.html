@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1> {{ titulo|capfirst|upper }} </h1>
+<p>
+    {{ mi_texto }}
+</p>
+<ul>
+    {% for mi_item in mi_lista %}
+        {% if mi_item == 789 %}
+            <li>{{ forloop.counter }} - {{ mi_item|add:11 }}</li>
+        {% else %}
+            <li>{{ forloop.counter }} - {{ mi_item }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}
