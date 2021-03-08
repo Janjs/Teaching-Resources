@@ -5,7 +5,6 @@ import time
 
 url = 'https://www.linkedin.com/jobs/search?keywords=Python&location=Matar%C3%B3%2C%20Catalonia%2C%20Spain&geoId=101156716&trk=public_jobs_jobs-search-bar_search-submit&redirect=false&position=1&pageNum=0'
 
-
 def find_jobs():
     html_text = requests.get(url)
     html_text = html_text.text
